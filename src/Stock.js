@@ -1,18 +1,15 @@
 import React from 'react';
-import StockTable from './components/stocks/StockTable'
+import StocksTable from './components/stocks/StocksTable'
 
+/* Stock Page */
 export const Stock = () => {
     return (
-        <React.Fragment>
-            <h2>Stock Market Page</h2>
-            <p>Welcome to the Stock Market Page. You may click on stocks to view all the stocks or search to
-                view the latest 100 days of activity.
-            </p>
-
+        <div>
+            <a href="/" className="bg-primary text-white text-sm border border-primary rounded rounded-xl px-2">BACK</a>
+            <h2 className="mt-4">Stock Search Table</h2>
+            <p>Welcome to the Stock Search Table. You may search stock symbols and industry by using the search boxes below</p>
             <br/>
-
-            <p>To start press here</p>
-            <StockTable />
-        </React.Fragment>
+            <StocksTable />
+        </div>
     )
 }

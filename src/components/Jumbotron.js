@@ -25,6 +25,7 @@ const Styles = styled.div`
     }
 `;
 
+/* Jumbotron for calling extra attention on the header */
 export const Jumbotron = () => {
     return(
         <Styles>

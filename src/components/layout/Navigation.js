@@ -15,11 +15,12 @@ const Styles = styled.div`
         }
     }`;
     
+/* Navigation Bar */
 export const Navigation = () => {
     return (
         <Styles>
             <Navbar bg="dark" variant="dark"> 
-                <Navbar.Brand href="/"><span className="h2 mx-auto">Stock Tracker</span></Navbar.Brand>
+                <Navbar.Brand><span className="h2 mx-auto">Stock Tracker</span></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto mt-2">
